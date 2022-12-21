@@ -1,4 +1,4 @@
-# LAB 1 - Class 401d20
+# LAB 3 - Class 401d20
 
 ## madlib-cli
 
