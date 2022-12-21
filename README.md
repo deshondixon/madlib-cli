@@ -1,12 +1,8 @@
 # LAB 3 - Class 401d20
 
----
-
 ## madlib-cli
 
----
-
-#### DeShon Dixon
+#### *Author:* DeShon Dixon
 
 ---
 
