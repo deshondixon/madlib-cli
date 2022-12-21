@@ -1,36 +1,33 @@
 # LAB 3 - Class 401d20
 
+---
+
 ## madlib-cli
 
-Author: DeShon Dixon
+---
 
-Links and Resources
+#### DeShon Dixon
 
-back-end server url (when applicable)
+---
 
-front-end application (when applicable)
+## Overview
 
-Setup
+Print a welcome message to the user, explaining the Madlib process and command line interactions
 
-.env requirements (where applicable)
+Read a template Madlib file (Example), and parse that file into usable parts.
 
-i.e.
+Prompt the user to submit a series of words to fit each of the required components of the Madlib template.
 
-PORT - Port Number
+With the collected user inputs, populate the template such that each provided input is placed into the correct position within the template.
 
-DATABASE_URL - URL to the running Postgres instance/db
+After the resulting Madlib has been completed, provide the completed response back to the user in the command line.
 
-How to initialize/run your application (where applicable)
+Write the completed text (Example)to a new file on your file system (in the repo).
 
-e.g. python main.py
+---
 
-How to use your library (where applicable)
+## Tests
 
-Tests
 
-How do you run tests?
 
-Any tests of note?
-
-Describe any tests that you did not complete, skipped, etc
 
