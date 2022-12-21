@@ -1,6 +1,7 @@
 Source: https://github.com/github/gitignore/blob/master/Python.gitignore
 
 # User generated
+.idea
 ENV/
 .vscode
 .idea
