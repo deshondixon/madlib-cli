@@ -9,21 +9,36 @@ print("""
     """)
 
 
-def read_template(file):
+def read_template(path):
     try:
-        with open(file) as f:
-            contents = f.read()
-            return contents
-    except FileNotFoundError as e:
-        print('File Not Found')
-        raise e
+        with open(path) as f:
+            return f.read()
+    except FileNotFoundError:
+        raise FileNotFoundError
 
 
-def parse_template():
-    with open() as p:
-        return p()
+def parse_template(template):
+    stripped_string = ""
+    actual_parts_string = ""
+    actual_parts = []
+
+    is_part = False
+    for char in template:
+        if char == "{":
+            stripped_string += char
+            is_part = True
+        elif is_part == True and char != "}":
+            actual_parts_string += char
+        elif is_part == True and char == "}":
+            stripped_string += char
+            is_part = False
+            actual_parts.append(actual_parts_string)
+            actual_parts_string = ""
+        else:
+            stripped_string += char
+    return stripped_string, tuple(actual_parts)
 
 
-def merge():
-    with open() as m:
-        return m()
+def merge(text, inputs):
+    print(text.format(*inputs))
+    return text.format(*inputs)
