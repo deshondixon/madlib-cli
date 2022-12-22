@@ -9,13 +9,14 @@ print("""
     """)
 
 
-def read_template(temp):
+def read_template(file):
     try:
-        with open(temp) as f:
+        with open(file) as f:
             contents = f.read()
             return contents
-    except FileNotFoundError:
-        raise FileNotFoundError
+    except FileNotFoundError as e:
+        print('File Not Found')
+        raise e
 
 
 def parse_template():
