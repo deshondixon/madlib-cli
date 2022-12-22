@@ -9,8 +9,8 @@ print("""
     """)
 
 
-def read_template(string):
-    with open(string, mode='r') as f:
+def read_template():
+    with open() as f:
         return f.read()
 
 
