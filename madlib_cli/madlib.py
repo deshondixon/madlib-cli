@@ -15,10 +15,10 @@ def read_template(string):
 
 
 def parse_template():
-    with open() as f:
-        return f.read()
+    with open() as p:
+        return p()
 
 
 def merge():
-    with open() as f:
-        return f.read()
+    with open() as m:
+        return m()
