@@ -31,7 +31,7 @@
 *source .venv/bin/activate*
 - Install pywatch: 
 *pip install pytest-watch*
-- Clone repo: *https://github.com/deshondixon/madlib-cli*
+- Clone repo: *https://github.com/deshondixon/madlib-cli.git*
 
 
 ---
