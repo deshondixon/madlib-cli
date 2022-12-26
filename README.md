@@ -24,17 +24,13 @@
 
 ## Setup
 
-- Create repo on desktop 
----
+- Create repo on desktop
 - Create virtual environment: 
 *python3.11 -m venv .venv*
----
 - Activate environment: 
 *source .venv/bin/activate*
----
 - Install pywatch: 
 *pip install pytest-watch*
----
 - Clone repo: *https://github.com/deshondixon/madlib-cli*
 
 
