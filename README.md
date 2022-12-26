@@ -24,6 +24,11 @@ Writes the completed text to a new file.
 
 ## Tests
 
+- Run test with:  
+*pytest-watch*
+---
+- Run program with: 
+*python3.11 ./madlib_cli/madlib.py*
 
 
 
